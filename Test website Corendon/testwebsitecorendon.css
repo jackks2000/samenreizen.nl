@@ -1,0 +1,243 @@
+body{
+	background-color: #ffc61e;
+}
+.layout{
+	height:2300px;
+	width: 1160px;
+	margin: auto;
+	background-color: #fff ;
+}
+
+
+h1{
+	display: block;
+	text-align: left;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family: Helvetica,sans-serif;
+	font-weight: 400;
+}
+#clogo{
+	width: 220px;
+	height: 50px;
+}
+
+ul{
+	height: 55px;
+	list-style-type: none;
+	margin-top: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #d81e05;
+}
+
+
+li{
+	float: left;
+	border-left: solid;
+	border-width: 1px;
+	border-color: #b81a04;
+	
+}
+
+
+a{
+	font-size: 20px;
+}
+li a, .dropbtn{
+	display:inline-block;
+	padding: 16px 30px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+	background-color: #b81a04;
+	color: #00000;
+}
+
+li.dropdown:hover{
+	display: block;
+}
+
+.landencontent {
+	display: none; 
+	position: absolute;
+	background-color: #d81e05;
+	max-width:250px;
+	border-style: solid;
+	z-index:1;
+	
+}
+
+.landencontent a{
+	color: #fff;
+	padding: 16px 30px;
+	text-decoration: none;
+	display: inline-block;
+	text-align: left;
+}
+
+.landencontent a:hover{
+	color: #00000;
+	background-color: #b81a04;
+}
+
+.dropdown:hover .landencontent{
+	display: inline-block;
+}
+
+.inleiding{
+	position: relative;
+	bottom: 0px;
+	left: 330px;
+	width:500px;
+	height:250px;
+	padding: 10px;
+	border-style: inset;
+	border-color: #ffff00;
+}
+
+#wiezijnwij{
+	text-align: center;
+	font-family: impact;
+}
+
+.twan{
+	position:relative;
+	bottom: 0px;
+	left: 10px;
+	width: 500px;
+	height: 200px;
+	padding: 5px;
+	border-style: inset;
+	border-color: #ff0000;
+}
+
+.jeraimo{
+	position: relative;
+	bottom: 218px;
+	left: 600px;
+	width:500px;
+	height:200px;
+	padding: 5px;
+	border-style: inset;
+	border-color: #0000cc;
+}
+
+.enne{
+	position: relative;
+	bottom: 200px;
+	left: 10px;
+	width: 500px;
+	height: 200px;
+	padding: 5px;
+	border-style: inset;
+	border-color: #00cc00;
+}
+
+.jack{
+	position: relative;
+	bottom: 420px;
+	left:600px;
+	width:500px;
+	height:400px;
+	padding: 5px;
+	border-style: inset;
+	border-color: #ffff00;
+}
+
+
+
+.samenwerkingscontract{
+	text-align: center;
+	position: relative;
+	bottom: 300px;
+	width:1100px;
+	height:250px;
+	margin: auto;
+	padding: 5px;
+	border-style: inset;
+	border-color: #2e2e1f;
+}
+
+.buttonfase1{
+	position: relative;
+	width: 300px;
+    border: none;
+    color: white;
+    padding: 30px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+#button1fase1{background-color: #ff0000;}
+#button2fase1{background-color: #0000cc;}
+#button3fase1{background-color: #00cc00;}
+#button4fase1{background-color: #6600cc;}
+#button5fase1{background-color: #2e2e1f;}
+
+
+#functionalrequirements{
+	text-align:center;
+	font-family: impact;
+}
+
+#nonfunctionalrequirements{
+	text-align:center;
+	font-family: impact;
+}
+
+.musthave{
+	position:relative;
+	bottom: 0px;
+	left: 10px;
+	width: 500px;
+	height: 310px;
+	padding: 5px;
+	border-style: inset;
+	border-color: #ff0000;
+}
+
+.shouldhave{
+	position: relative;
+	bottom: 325px;
+	left: 600px;
+	width:500px;
+	height:310px;
+	padding: 5px;
+	border-style: inset;
+	border-color: #0000cc;
+}
+
+.couldhave{
+	position: relative;
+	bottom: 250px;
+	left: 130px;
+	width: 900px;
+	height: 120px;
+	padding: 5px;
+	border-style: inset;
+	border-color: #00cc00;
+}
+
+.businesscase{
+	position: relative;
+	bottom: 0px;
+	left: 10px;
+	width:1160px;
+	height:1850px;
+	padding: 10px;
+	border-style: inset;
+	border-color: #ffff00;
+}
+
+
