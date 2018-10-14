@@ -8,6 +8,28 @@ body{
 	background-color: #fff ;
 }
 
+.button{
+	position: relative;
+	width: 400px;
+	left:600px;
+	border-color:#000;
+	border-style: solid;
+    border-width: 3px;
+    background-color: #ffc61e;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px;
+    cursor: pointer;
+	color:#000;
+}
+
+#button2{
+	left: 610px;
+	padding: 10px 30px;
+}
+
 
 h1{
 	display: block;
@@ -239,5 +261,29 @@ li.dropdown:hover{
 	border-style: inset;
 	border-color: #ffff00;
 }
+<!-- REGISTREREN -->
+.gebruikersnaaminvoer{
+
+	right: 500px;
+	top: 300px;
+	
+	
+}
+
+#accountaanmaken{
+	background-color:#0CA900;
+	border-width: 1px;
+	color: #fff;
+    border-radius: 1em;
+	position: absolute;
+	left:100px;
+	top: 650px;
+	width: 200px;
+}
+
+
+
+
+
 
 
